@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.before-h2::before {
+    content: '';
+    position: absolute;
+    background-color: #16A34A; 
+    width: 25%; 
+    height: 5px;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shadow-green {
+    box-shadow: 5px 5px rgba(22, 163, 74, 0.4), 10px 10px rgba(22, 163, 74, 0.3), 15px 15px rgba(22, 163, 74, 0.2), 20px 20px rgba(22, 163, 74, 0.1), 25px 25px rgba(22, 163, 74, 0.05);
+}
+
+.dish {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .hide {
+        display: none;
+    }
+
+    .headerl {
+        flex-direction: column;
+    }
+
+    .herol {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .hide-tablet {
+        display: none;
+    }
+
+    .aboutl {
+        grid-template-columns: 1fr;
+    }
+
+    .gap-tablet {
+        gap: 50px;
+    }
+
+    .gap-tabletxl {
+        gap: 100px;
+    }
+
+    .flex-tablet {
+        justify-content: center;
+    }
+
+    .flex-col-tablet-nogap {
+        flex-direction: column;
+    }
+
+    .flex-col-tablet {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .tac-tablet {
+        text-align: center;
+    }
+
+    .ft-size-tablet  {
+        font-size: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .mobile-flex-col {
+        flex-direction: column;
+    }
+
+    .mobile-flex-col-center {
+        align-items: center;
+    }
+
+    .mobile-flex-center {
+        justify-content: center;
+    }
+
+    .mobile-flex-gap {
+        gap: 50px;
+    }
+
+    .mobile-hero-title {
+        font-size: 34px;
+    }
+
+    .mobile-tac {
+        text-align: center;
+    }
+
+    .mobile-mbottom {
+        margin-bottom: 20px;
+    }
+
+    .mobile-lr-padding {
+        padding-left: 25px ;
+        padding-right: 25px ;
+    }
+
+    .ft-size-mobile  {
+        font-size: 32px;
+    }
+
+    .mobile-full {
+        width: 100%;
+    }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Commandez des repas bio et savoureux avec Eco Eats. Livraison rapide et délicieux plats, pensés pour votre bien-être et celui de la planète.">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>ECO EATS</title>
+</head>
+<body class=" font-sans">
+
+    <main>
+        <!-- Header du Site avec navbar -->
+        <header id="header" class="font-medium text-lg px-28 py-5 mobile-lr-padding">
+            <nav class="flex justify-between items-center headerl gap-tablet">
+                <a href="#header" class="w-28"><img class="w-full" src="./assets/logo-removebg-preview.png" alt="eco-eats-logo"></a>
+                <div class="flex gap-20 flex-col-tablet-nogap">
+                    <ul class="text-gray-900 flex items-center gap-8 mobile-flex-col">
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#working">Fonctionnement</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+        
+                    <a href="#menu" class=" text-white bg-green-600 py-2 px-6 rounded-full hover:bg-green-500 transition-colors hide">Commander</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section Heros avec phrase d'accroche -->
+        <section class="grid grid-cols-2 grid-rows-1 gap-4 py-14 px-28 pb-20 herol mobile-tac mobile-lr-padding" id="hero">
+
+
+            <div>
+                <h1 class="bg-gradient-to-r text-transparent from-green-500 to-green-600 bg-clip-text font-bold  text-7xl mb-5 mobile-hero-title">
+                    Bien Manger, Facilement Livré
+                </h1>
+                <p class="font-medium text-lg pr-5 mb-16">
+                    Savourez le goût du bien-être avec <strong class="text-green-600">Eco Eats™.</strong> Des repas bio, frais et délicieux, livrés directement à votre porte. Redéfinissez votre expérience culinaire, une bouchée à la fois.
+                </p>
+                <div class="flex items-center w-4/5 relative mb-16 mobile-full">
+                    <input class="w-full border-2 font-medium text-gray-600 border-gray-100 shadow-md rounded-full py-4 px-6" type="text" placeholder="Entrez Votre Localisation">
+                    <button class="absolute right-3 top-5 ">
+                        <i class="text-2xl text-white bg-green-600 rounded-full px-5 py-2 hover:bg-green-500 transition-colors ph ph-arrow-right"></i>
+                    </button>
+                </div>
+                <div>
+                    <h5 class="text-lg font-bold mobile-mbottom">Partenaire Vérifié :</h5>
+                    <div class="flex gap-10 mobile-flex-col mobile-flex-col-center">
+                        <svg class="w-24" viewBox="0.5 0.5 999 323.684"  xmlns="http://www.w3.org/2000/svg"><path d="M651.185.5c-70.933 0-134.322 36.766-134.322 104.694 0 77.9 112.423 83.28 112.423 122.415 0 16.478-18.884 31.229-51.137 31.229-45.773 0-79.984-20.611-79.984-20.611l-14.638 68.547s39.41 17.41 91.734 17.41c77.552 0 138.576-38.572 138.576-107.66 0-82.316-112.89-87.537-112.89-123.86 0-12.91 15.501-27.053 47.662-27.053 36.286 0 65.892 14.99 65.892 14.99l14.326-66.204S696.614.5 651.185.5zM2.218 5.497L.5 15.49s29.842 5.461 56.719 16.356c34.606 12.492 37.072 19.765 42.9 42.353l63.51 244.832h85.138L379.927 5.497h-84.942L210.707 218.67l-34.39-180.696c-3.154-20.68-19.13-32.477-38.685-32.477H2.218zm411.865 0L347.449 319.03h80.999l66.4-313.534h-80.765zm451.759 0c-19.532 0-29.88 10.457-37.474 28.73L709.699 319.03h84.942l16.434-47.468h103.483l9.994 47.468H999.5L934.115 5.497h-68.273zm11.047 84.707l25.178 117.653h-67.454z" fill="#16A34A"/></svg>
+
+                        <svg class="w-24" fill="#16A34A" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M184.252 96.379c0-28.73-23.291-52.021-52.02-52.021-12.467 0-23.811 4.363-32.77 11.676 6.834 6.598 12.051 14.859 14.85 24.197h-4.322c-2.709-8.302-7.467-15.627-13.652-21.505a52.03 52.03 0 0 0-13.563 21.48h-4.323A56.137 56.137 0 0 1 93.148 56.07c-8.937-7.238-20.227-11.713-32.624-11.713-28.729 0-52.021 23.291-52.021 52.021 0 28.729 23.291 52.02 52.021 52.02 12.396 0 23.687-4.475 32.624-11.713-6.781-6.578-11.909-14.85-14.696-24.135h4.323a52.036 52.036 0 0 0 13.563 21.48c6.186-5.879 10.943-13.203 13.652-21.506h4.322c-2.799 9.338-8.016 17.6-14.85 24.197 8.959 7.312 20.303 11.676 32.77 11.676 28.729.001 52.02-23.29 52.02-52.018z"/><path d="M146.02 108.564l3.592-19.248h4.541l.475 1.897c.814-.95 2.373-1.897 5.016-1.897l-1.422 5.014c-1.289 0-3.729-.337-5.287 5.423l-1.627 8.811h-5.288zM76.415 84.424h5.234l-1.074 5.1h2.817l-.938 4.16H79.77l-1.477 7.783c-.269 1.477-.134 2.82 2.886 2.35l-.336 3.891c-1.141.738-2.684.941-3.893.941-1.207 0-5.167-.74-4.159-5.973l3.624-18.252zM99.096 99.992c.604-3.088 2.014-10.736-7.179-10.736-8.456 0-9.529 8.387-9.73 9.594-.201 1.209-.335 9.73 8.723 9.73 2.215.068 5.436-.201 6.712-.873l.805-3.957c-.805.199-3.826.469-5.907.469-2.079 0-5.434.135-4.831-4.227h11.407zM71.451 93.819l1.207-3.893c-2.483-.939-4.428-.737-5.167-.737s-7.022-.077-7.985 4.563c-.738 3.557.564 5.028 1.812 5.569 2.014.873 3.155 1.678 4.229 2.215 1.328.664 1.084 2.885-.672 2.885-.806 0-4.294.402-6.911-.471l-.738 3.959c2.416.672 4.36.672 6.174.672 1.274 0 7.515.336 8.386-5.436.426-2.814-.805-4.094-1.812-4.695-1.006-.672-2.684-1.611-3.757-2.082-1.074-.469-1.879-2.28.067-2.817 1.207-.135 3.689-.135 5.167.268zM37.497 108.58l4.361-23.217H33.27l-6.376 14.092-1.007-14.092H17.5l-4.496 23.217h5.233l3.221-16.775 1.41 16.775h4.965l7.315-16.372-3.087 16.372h5.436zM43.266 89.86l-.805 4.16c1.276-.133 4.698-.67 6.509-.604 1.813.067 3.825-.201 3.221 2.684-1.342.135-10.736-1.342-12.211 6.709-.604 3.961 2.817 5.973 5.501 5.84 2.684-.135 3.422-.471 4.362-1.143l.671 1.074h4.897l2.081-10.467c.537-2.617 1.408-8.925-7.381-8.925-1.61.068-3.421 0-6.845.672zM128.084 90.731c-1.344-.806-2.281-.939-4.027-.939-1.744 0-5.637 1.667-6.373 6.375-.873 5.569 2.951 8.319 8.32 6.509l1.543 4.697c-1.744.805-3.49 1.207-6.375 1.207-5.436 0-11.34-4.83-8.656-14.628 1.979-7.219 8.188-9.863 11.811-9.729 4.293.16 5.838 1.61 7.18 3.087l-3.423 3.421zM172.707 91.536c-1.008-.737-1.609-2.28-4.094-2.28-2.885 0-7.381-.537-9.93 8.186-1.705 5.83 1.744 11.139 5.5 11.139 1.746-.066 3.49-.805 4.562-1.543l.674 1.543h5.635l4.564-24.424h-5.504l-1.407 7.379zM131.842 89.86l-.807 4.16c1.277-.133 4.697-.67 6.51-.604 1.812.067 3.826-.201 3.221 2.684-1.342.135-10.736-1.342-12.211 6.709-.605 3.961 2.816 5.973 5.5 5.84 2.686-.135 3.422-.471 4.363-1.143l.672 1.074h4.896l2.082-10.467c.537-2.617 1.408-8.925-7.383-8.925-1.609.068-3.421 0-6.843.672z" fill="#fff"/><path d="M88.024 96.503h6.509c.336-1.879-.268-3.49-2.348-3.49-2.081 0-3.557 1.074-4.161 3.49zM51.32 99.992c-.873-.137-2.819-.672-4.497.469s-2.147 3.152-.402 3.826c1.679.645 4.158-.469 4.496-2.217l.403-2.078zM170.828 99.387c.537-1.744.244-3.922-.336-4.695-1.609-2.147-5.312-.45-6.441 3.758-.738 2.75.873 4.83 2.684 4.83 1.947-.001 3.154-1.544 4.093-3.893zM139.895 99.992c-.873-.137-2.818-.672-4.496.469s-2.148 3.152-.402 3.826c1.68.645 4.158-.469 4.494-2.217l.404-2.078z"/><path d="M99.246 108.58l3.557-19.056h4.496l.469 1.879c.807-.94 2.35-1.879 4.965-1.879l-1.342 5.033c-1.273 0-3.758-.402-5.301 5.299l-1.609 8.725h-5.235v-.001z" fill="#fff"/></g></svg>
+
+                        <svg class="w-24" viewBox="0 0 452 188" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Logo</title><defs><path id="a" d="M.06.667h451.623V188H.06V.667z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M47.2 84.934c-9.733-3.6-15.067-6.4-15.067-10.8 0-3.734 3.067-5.867 8.534-5.867 10 0 20.266 3.867 27.333 7.333l4-24.666c-5.6-2.667-17.067-7.067-32.933-7.067-11.2 0-20.534 2.933-27.2 8.4-6.934 5.733-10.534 14-10.534 24 0 18.133 11.067 25.867 29.067 32.4 11.6 4.133 15.467 7.067 15.467 11.6 0 4.4-3.734 6.933-10.534 6.933-8.4 0-22.266-4.133-31.333-9.466l-4 24.933c7.733 4.4 22.133 8.933 37.067 8.933 11.866 0 21.733-2.8 28.4-8.133C72.933 137.6 76.8 128.934 76.8 117.734c0-18.534-11.333-26.267-29.6-32.8zM141.917 70.4l4-24.533H124.8V16.085l-28.392 4.672-4.1 25.11-9.986 1.62L78.584 70.4h13.683v48.134c0 12.533 3.2 21.2 9.733 26.533 5.467 4.4 13.333 6.533 24.4 6.533 8.533 0 13.733-1.466 17.333-2.4v-26c-2 .534-6.533 1.467-9.6 1.467-6.533 0-9.333-3.333-9.333-10.933V70.4h17.117zm63.416-25.966c-9.333 0-16.8 4.9-19.733 13.7l-2-12.267h-28.933V149.6h33.066V82.267c4.134-5.067 10-6.899 18-6.899 1.734 0 3.6 0 5.867.4V45.234c-2.267-.533-4.267-.8-6.267-.8zm30.934-8.834c9.6 0 17.333-7.866 17.333-17.466C253.6 8.4 245.867.667 236.267.667 226.533.667 218.8 8.4 218.8 18.134c0 9.6 7.733 17.466 17.467 17.466zM219.6 45.867h33.2V149.6h-33.2V45.867zM346.883 55.2c-5.867-7.6-14-11.333-24.4-11.333-9.6 0-18 4-25.867 12.4l-1.733-10.4h-29.067V188l33.067-5.466V149.2c5.066 1.6 10.266 2.4 14.933 2.4 8.267 0 20.267-2.133 29.6-12.266 8.933-9.734 13.467-24.8 13.467-44.667 0-17.6-3.334-30.933-10-39.467zm-27.467 64c-2.667 5.067-6.8 7.734-11.6 7.734-3.333 0-6.267-.667-8.933-2V75.6c5.6-5.866 10.666-6.533 12.533-6.533 8.4 0 12.533 9.067 12.533 26.8 0 10.133-1.466 18-4.533 23.333zm132.267-22.4c0-16.533-3.6-29.6-10.667-38.8-7.2-9.333-18-14.133-31.733-14.133-28.134 0-45.6 20.8-45.6 54.133 0 18.667 4.666 32.667 13.866 41.6 8.267 8 20.134 12 35.467 12 14.133 0 27.2-3.333 35.467-8.8l-3.6-22.666c-8.134 4.4-17.6 6.8-28.267 6.8-6.4 0-10.8-1.334-14-4.134-3.467-2.933-5.467-7.733-6.133-14.533h54.8c.133-1.6.4-9.067.4-11.467zM396.216 88c.933-14.8 4.933-21.733 12.533-21.733 7.467 0 11.334 7.067 11.867 21.733h-24.4z" fill="#16A34A" mask="url(#b)"/></g></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <svg class="w-[700px] hide" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"  viewBox="0 0 829 364.82907" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M432.12988,567.97449c-2.85009,22.33-13.33008,42.76-24.51025,62.44-.36963.67-.75,1.33-1.13965,2H290.27979c-2.3501-.61-4.66993-1.28-6.98-2a127.02725,127.02725,0,0,1-36.68994-18.05c-42.75-30.8-59.20019-89-51.77-141.15,4.62012-32.4,18.83985-65.48,46.52979-82.93,14.62012-9.23,33.3999-12.23,50.23-8.8.44043.08.88037.18,1.33008.27,14.48,3.26,27.37988,11.36,34.72021,24.41,13.19971,23.45,5.33985,52.5-1.1499,78.6-6.47021,26.1-9.98047,57.34,8.7998,76.59-6.20019-18.25-.08007-40.02,14.73-52.36,11.18994-9.31,26.77-12.8,40.98-9.91,1.35986.29,2.70019.62,4.02,1.02a44.59846,44.59846,0,0,1,9.16992,3.84C426.34961,514.31452,435.31982,542.80451,432.12988,567.97449Z" transform="translate(-185.5 -267.58547)" fill="#f2f2f2"/><path d="M363.23,630.4145c3.21973.75,6.44971,1.41,9.69971,2H355.35986c-2.30029-.62-4.59033-1.28-6.85986-2q-7.48534-2.34-14.74023-5.37c-19.39991-8.14-37.27-20.36-50.79-36.62a103.37091,103.37091,0,0,1-16.02-26.17,118.85639,118.85639,0,0,1-8.19971-33.49c-2.4502-23.6.0498-47.85,4.71973-71.03a296.45051,296.45051,0,0,1,23.16015-69.47q1.905-3.97494,3.93994-7.9a1.54158,1.54158,0,0,1,1.02979-.88,1.77741,1.77741,0,0,1,1.33008.27,2.1062,2.1062,0,0,1,.83008,2.78,293.03874,293.03874,0,0,0-24.58008,66.96c-5.31983,22.67-8.33985,46.39-7.31006,69.7.98,21.78,6.67041,43.2,19.58008,61.00994,11.79,16.26,28.06982,29.08,46.08008,37.81A169.131,169.131,0,0,0,363.23,630.4145Z" transform="translate(-185.5 -267.58547)" fill="#fff"/><path d="M401.79,632.4145h-5.18018c-.58007-.66-1.14013-1.33-1.68994-2a110.41123,110.41123,0,0,1-23.24023-49.66,107.73445,107.73445,0,0,1,9.29-67.05,110.2407,110.2407,0,0,1,10.04-16.62c1.35986.29,2.70019.62,4.02,1.02a106.05621,106.05621,0,0,0-19.77,45.34A105.09492,105.09492,0,0,0,400,630.4145C400.57959,631.08448,401.17969,631.75452,401.79,632.4145Z" transform="translate(-185.5 -267.58547)" fill="#fff"/><path d="M868.42938,615.40764c.75219,5.8933,3.51805,11.28515,6.4687,16.47906.09755.17682.19794.351.30078.52783h30.66735c.62024-.161,1.23248-.33782,1.84215-.52783a33.52491,33.52491,0,0,0,9.68315-4.76373c11.2825-8.12868,15.624-23.48872,13.663-37.25207-1.21933-8.55094-4.97218-17.28137-12.28006-21.88674a18.43729,18.43729,0,0,0-13.25661-2.32248c-.11624.02112-.23235.0475-.351.07126a13.67963,13.67963,0,0,0-9.1633,6.44224c-3.48365,6.18889-1.40929,13.85571.30348,20.744,1.70761,6.88828,2.634,15.13308-2.32243,20.21351a12.64393,12.64393,0,0,0-14.70288-16.4342c-.35889.07655-.71263.16363-1.061.26921a11.77068,11.77068,0,0,0-2.42011,1.01345C869.9549,601.24579,867.58749,608.76482,868.42938,615.40764Z" transform="translate(-185.5 -267.58547)" fill="#f2f2f2"/><path d="M886.61332,631.8867c-.84974.19794-1.70219.37211-2.55993.52783h4.637c.60709-.16362,1.21147-.33782,1.81044-.52783q1.97553-.61758,3.89022-1.41724a34.90012,34.90012,0,0,0,13.40442-9.66469,27.28163,27.28163,0,0,0,4.228-6.90674,31.36842,31.36842,0,0,0,2.164-8.83864,62.85793,62.85793,0,0,0-1.24562-18.7461,78.23849,78.23849,0,0,0-6.11239-18.33442q-.50277-1.04906-1.03982-2.08494a.40684.40684,0,0,0-.27178-.23225.46908.46908,0,0,0-.351.07126.55587.55587,0,0,0-.21908.73369,77.33813,77.33813,0,0,1,6.48714,17.672,68.02194,68.02194,0,0,1,1.92926,18.39511,29.3506,29.3506,0,0,1-5.16755,16.10164,32.4858,32.4858,0,0,1-12.16137,9.97875A44.6366,44.6366,0,0,1,886.61332,631.8867Z" transform="translate(-185.5 -267.58547)" fill="#fff"/><path d="M876.43662,632.41453h1.36714c.15309-.17418.3009-.351.446-.52783a29.13962,29.13962,0,0,0,6.13352-13.10618,28.43312,28.43312,0,0,0-2.45181-17.69573,29.095,29.095,0,0,0-2.64975-4.38633c-.35889.07655-.71263.16363-1.061.26921a27.99,27.99,0,0,1,5.21767,11.96606,27.73652,27.73652,0,0,1-6.5294,22.953C876.75608,632.06352,876.5977,632.24035,876.43662,632.41453Z" transform="translate(-185.5 -267.58547)" fill="#fff"/><path d="M592.00977,480.0937h-95.981L495.01123,450.583a8.85956,8.85956,0,0,1,9.93091-9.09863l55.85449,6.83936h.00684a31.29061,31.29061,0,0,1,31.2063,31.27Z" transform="translate(-185.5 -267.58547)" fill="#16a34a"/><path d="M549.23082,375.4145H482.28871a6.77712,6.77712,0,0,0-6.77894,6.77894v66.94211a6.77713,6.77713,0,0,0,6.77894,6.77895h66.94211a6.77714,6.77714,0,0,0,6.779-6.77895V382.19344A6.77713,6.77713,0,0,0,549.23082,375.4145Z" transform="translate(-185.5 -267.58547)" fill="#ccc"/><path d="M534.15445,425.47126l-31.60628,6.15492a7.2107,7.2107,0,0,1-8.44659-5.69307L491.672,413.45694a7.21069,7.21069,0,0,1,5.69307-8.44658l31.60628-6.15491a7.21069,7.21069,0,0,1,8.44659,5.69307l2.42957,12.47616A7.21068,7.21068,0,0,1,534.15445,425.47126Z" transform="translate(-185.5 -267.58547)" fill="#3f3d56"/><path d="M527.831,410.73188l-24.12058,4.69717a1.69474,1.69474,0,0,1-.64789-3.327l24.12059-4.69717a1.69474,1.69474,0,0,1,.64788,3.327Z" transform="translate(-185.5 -267.58547)" fill="#fff"/><path d="M523.14259,417.68789l-12.47616,2.42957a1.69474,1.69474,0,0,1-.64789-3.327l12.47617-2.42957a1.69474,1.69474,0,1,1,.64788,3.327Z" transform="translate(-185.5 -267.58547)" fill="#fff"/><path d="M556.00977,382.19344v8.89737h-80.5v-8.89737a6.77712,6.77712,0,0,1,6.77894-6.77894h66.94211A6.77713,6.77713,0,0,1,556.00977,382.19344Z" transform="translate(-185.5 -267.58547)" fill="#b3b3b3"/><path d="M716.76052,393.87705a10.74267,10.74267,0,0,0-15.19331-6.3648l-92.09655-33.04273-4.05633,23.00726,91.8034,25.2454a10.80091,10.80091,0,0,0,19.54279-8.84513Z" transform="translate(-185.5 -267.58547)" fill="#ffb8b8"/><path d="M716.76052,393.87705a10.74267,10.74267,0,0,0-15.19331-6.3648l-92.09655-33.04273-4.05633,23.00726,91.8034,25.2454a10.80091,10.80091,0,0,0,19.54279-8.84513Z" transform="translate(-185.5 -267.58547)" opacity="0.2"/><path d="M625.81732,358.66188l-8.69674,22.72023a4.81688,4.81688,0,0,1-6.86086,2.47581l-21.13624-11.89627a13.37737,13.37737,0,0,1,9.63746-24.95856l23.6022,5.23464a4.81686,4.81686,0,0,1,3.45418,6.42415Z" transform="translate(-185.5 -267.58547)" fill="#16a34a"/><path d="M724.00977,414.9145l-33,15,4.33259,16.311a253.73547,253.73547,0,0,1,6.53976,96.64985v0l24.12766,5.03915,20-51-7-58Z" transform="translate(-185.5 -267.58547)" fill="#16a34a"/><path d="M788.75977,490.4145c-21.68213,0-39.35157,15.762-40.209,35.5h80.418C828.11133,506.17646,810.44189,490.4145,788.75977,490.4145Z" transform="translate(-185.5 -267.58547)" fill="#3f3d56"/><path d="M771.88135,493.81605c-1.12842-89.09839-51.87158-80.90155-51.87158-80.90155s.94921,27.73333,1.40527,28.59582c32.33545,61.17957-21.03027,132.90381-88.96,119.70886q-1.92114-.37317-3.69141-.75714a34.5813,34.5813,0,0,1-27.16328-38.76284c6.69158-53.73562-26.59062-52.7847-26.59062-52.7847H526.34326l-25.27335-22.7459a7.3469,7.3469,0,0,0-11.80868,2.92095l-3.25146,8.825s-48,5-44,52h14.83984a29.96684,29.96684,0,0,0,.16016,4l110.75092-.90044c6.49187-.05278,12.22225,5.20768,12.249,11.69971a11.75308,11.75308,0,0,1-12.14443,11.79594l-17.85546-.59521c-5.5,24.5,8,41,22.875,51.375a83.1484,83.1484,0,0,0,47.61766,14.625h48.50734c63,0,74-53,74-53C776.00977,534.9145,771.88135,493.81605,771.88135,493.81605Z" transform="translate(-185.5 -267.58547)" fill="#3f3d56"/><circle cx="600.25977" cy="307.07903" r="56.25" fill="#3f3d56"/><circle cx="600.25977" cy="307.07903" r="13.78676" fill="#fff"/><circle cx="316.25977" cy="298.57903" r="64.75" fill="#3f3d56"/><circle cx="316.25977" cy="298.57903" r="15.8701" fill="#fff"/><path d="M691.10352,434.34663,679.23,402.09711a13.63843,13.63843,0,0,1,8.08691-17.51074l34.04-12.53125a23.99761,23.99761,0,0,1,30.812,14.22705,23.84491,23.84491,0,0,1,1.481,8.29248,24.1887,24.1887,0,0,1-8.98779,18.73,23.81344,23.81344,0,0,1-6.72022,3.78907Z" transform="translate(-185.5 -267.58547)" fill="#3f3d56"/><path d="M753.1499,394.57447a23.54938,23.54938,0,0,1-8.80029,18.34,29.98827,29.98827,0,0,1-19.69971-41.3,23.50519,23.50519,0,0,1,28.5,22.96Z" transform="translate(-185.5 -267.58547)" fill="#16a34a"/><ellipse cx="265.00977" cy="231.82903" rx="14" ry="17" fill="#16a34a"/><polygon points="450.071 292.005 462.331 292.005 468.164 260.208 450.069 260.209 450.071 292.005" fill="#ffb8b8"/><path d="M632.44363,555.58794l24.1438-.001h.001a15.38605,15.38605,0,0,1,15.38648,15.38623v.5l-39.53052.00146Z" transform="translate(-185.5 -267.58547)" fill="#2f2e41"/><path d="M649.80136,546.54q-.21423,0-.43018-.02051l-16.96655-1.23535a4.49992,4.49992,0,0,1-3.80932-6.0293l22.70654-51.01464a3.49812,3.49812,0,0,0-.19629-2.79883,3.45084,3.45084,0,0,0-2.21118-1.75977c-10.67725-2.791-38.072-10.22265-61.78638-18.918-10.15991-3.72558-16.55884-9.10937-19.0188-16.00195-3.24316-9.08691,1.55469-17.374,1.7605-17.72168l.16089-.27246,22.3147,2.02832,24.19116,2.05762,53.01343,28.42773a20.086,20.086,0,0,1,8.8186,25.78418L653.90756,543.873A4.49689,4.49689,0,0,1,649.80136,546.54Z" transform="translate(-185.5 -267.58547)" fill="#2f2e41"/><circle cx="410.70532" cy="39.7202" r="24.56103" fill="#ffb8b8"/><polygon points="443.071 295.005 455.331 295.005 461.164 263.208 443.069 263.209 443.071 295.005" fill="#ffb8b8"/><path d="M625.44363,558.58794l24.1438-.001h.001a15.38605,15.38605,0,0,1,15.38648,15.38623v.5l-39.53052.00146Z" transform="translate(-185.5 -267.58547)" fill="#2f2e41"/><path d="M642.80136,549.54q-.21423,0-.43018-.02051l-16.96655-1.23535a4.49992,4.49992,0,0,1-3.80932-6.0293l22.70654-51.01464a3.49812,3.49812,0,0,0-.19629-2.79883,3.45084,3.45084,0,0,0-2.21118-1.75977c-10.67725-2.791-38.072-10.22265-61.78638-18.918-10.15991-3.72558-16.55884-9.10937-19.0188-16.00195-3.24316-9.08691,1.55469-17.374,1.7605-17.72168l.16089-.27246,22.3147,2.02832,24.19116,2.05762,53.01343,28.42773a20.086,20.086,0,0,1,8.8186,25.78418L646.90756,546.873A4.49689,4.49689,0,0,1,642.80136,549.54Z" transform="translate(-185.5 -267.58547)" fill="#2f2e41"/><path d="M603.78012,345.79386l-26-9s-16.322,12.54-8.481,43.64856a77.01209,77.01209,0,0,1-3.40009,48.32025,49.7787,49.7787,0,0,1-2.61889,5.53119s29,35,56,9l-10.5-50.5S625.28012,359.29386,603.78012,345.79386Z" transform="translate(-185.5 -267.58547)" fill="#16a34a"/><path d="M599.25474,332.702c-3.49562-5.23231-6.25435-12.48756-2.40565-17.46591,3.79907-4.91416,11.29215-4.19018,17.11054-6.36466,8.104-3.02867,12.80409-12.5493,11.33824-21.07564s-8.31031-15.59442-16.46405-18.48645-17.34839-1.95148-25.33312,1.37887c-9.82931,4.0997-18.26115,12.03028-21.79686,22.07625s-1.6456,22.10808,5.68929,29.82963c7.86381,8.27834,20.20556,10.48454,31.62276,10.35067" transform="translate(-185.5 -267.58547)" fill="#2f2e41"/><path d="M576.40785,288.06942c-4.40484,3.58587-11.12527,1.99318-15.8536-1.15387s-8.56507-7.62825-13.681-10.09566c-9.01922-4.34995-19.92379-1.45825-28.70171,3.36009s-16.55916,11.475-25.83124,15.25617-21.10393,3.96808-28.12484-3.17161a25.732,25.732,0,0,0,37.7101,30.37145c10.1594-6.18839,15.77105-19.1637,27.16592-22.57933,6.3055-1.89008,13.07632-.36777,19.44917,1.28106s13.01783,3.43041,19.44912,2.02674,12.447-7.18312,11.6288-13.71475Z" transform="translate(-185.5 -267.58547)" fill="#2f2e41"/><path d="M715.53838,392.87666a10.74265,10.74265,0,0,0-15.86252-4.44158L604.2061,367.00792l-1.18664,23.33194,94.21678,13.72558a10.80091,10.80091,0,0,0,18.30214-11.18878Z" transform="translate(-185.5 -267.58547)" fill="#ffb8b8"/><path d="M620.94513,369.15135l-5.827,23.61966a4.81688,4.81688,0,0,1-6.503,3.3034l-22.44252-9.19753a13.37737,13.37737,0,0,1,6.48437-25.957l24.06772,2.28255a4.81687,4.81687,0,0,1,4.22042,5.94888Z" transform="translate(-185.5 -267.58547)" fill="#16a34a"/><circle cx="519.00977" cy="136.82903" r="7" fill="#16a34a"/><path d="M1014.5,631.4145a1.00308,1.00308,0,0,1-1,1h-827a1,1,0,0,1,0-2h827A1.00308,1.00308,0,0,1,1014.5,631.4145Z" transform="translate(-185.5 -267.58547)" fill="#3f3d56"/></svg>
+            </div>
+        
+        </section>
+        
+        <!-- Section A propos sur l'entreprise Eco Eats -->
+        <section id="about" class="grid grid-cols-2 grid-rows-1 items-center gap-2  py-40 px-28 aboutl tac-tablet mobile-lr-padding">
+            <figure class="w-2/3 shadow-green hide-tablet">
+            <img src="https://images.unsplash.com/photo-1602867741746-6df80f40b3f6?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </figure>
+
+            <div>
+                <h4 class="font-medium text-2xl text-green-600 mb-4">Découvrez notre engagement</h4>
+                <h3 class="font-medium text-5xl mb-5 ft-size-tablet ft-size-mobile">À Propos de Eco Eats</h3>
+                <p class="font-medium text-xl mb-10">Chez <strong class="text-green-600">Eco Eats™</strong>, nous nous engageons à fournir des repas bio de qualité directement à votre domicile. Notre histoire est façonnée par une passion commune pour la nourriture saine et accessible. Chaque plat que nous proposons reflète notre engagement envers la fraîcheur, le bien-être et la simplicité. Nous sommes fiers de vous offrir une expérience culinaire sans tracas, où la qualité et la praticité se rencontrent.</p>
+                <button class="font-bold text-white bg-green-600 py-2 px-6 rounded-full hover:bg-green-500 transition-colors">
+                    Commencer
+                </button>
+            </div>
+            
+        </section>
+        
+        <!-- Section qui décrit le fonctionnent de Eco Eats -->
+        <section id="working" class="flex flex-col  items-center py-40 px-28 mobile-lr-padding">
+            <h2 class=" relative  text-center font-medium text-5xl mb-20 before-h2 ft-size-tablet ft-size-mobile">Comment ça marche ?</h2>
+            <div class="flex flex-col-tablet ">
+                <div class="flex flex-col items-center">
+                    <figure class="w-44 h-44 flex justify-center items-center text-green-600 bg-green-50 text-8xl rounded-full shadow-green-700 mb-10"><i class="ph ph-shopping-bag"></i></figure>
+                    <h5 class="w-[50px] h-[50px] flex justify-center items-center font-bold text-3xl text-white bg-green-600 rounded-full py-1 px-4 mb-5">1</h5>
+                    <p class="w-3/5 font-medium text-lg text-center">Faites votre réservation directement sur l'appli <strong class="text-green-600">Eco Eats™</strong></p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <figure class="w-44 h-44 flex justify-center items-center text-green-600 bg-green-50 text-8xl rounded-full shadow-green-700 mb-10"><i class="ph ph-package"></i></figure>
+                    <h5 class="w-[50px] h-[50px] flex justify-center items-center font-bold text-3xl text-white bg-green-600 rounded-full py-1 px-4 mb-5">2</h5>
+                    <p class="w-3/5 font-medium text-lg text-center">Profitez d'une livraison rapide à votre porte</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <figure class="w-44 h-44 flex justify-center items-center text-green-600 bg-green-50 text-8xl rounded-full shadow-green-700 mb-10"><i class="ph ph-fork-knife"></i></figure>
+                    <h5 class="w-[50px] h-[50px] flex justify-center items-center font-bold text-3xl text-white bg-green-600 rounded-full py-1 px-4 mb-5">3</h5>
+                    <p class="w-3/5 font-medium text-lg text-center">Savourez des repas sains et délicieux chez vous</p>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Section sur le menu d'Eco Eats -->
+        <section id="menu" class="bg-gray-100 py-40 px-28 mobile-lr-padding">
+
+            <div class="flex justify-between items-end mb-24">
+                <div class="tac-tablet">
+                    <h4 class="font-medium text-2xl text-green-600 mb-4">Plaisirs Gustatifs</h4>
+                    <h3 class="font-medium text-5xl ft-size-tablet ft-size-mobile">Explorez notre Carte Délicieuse</h3>
+                </div>
+                
+                <a href="#menu" class="font-medium text-lg text-gray-400 hover:bg-green-100 hover:text-green-600 transition-colors py-2 px-6 rounded-full hide-tablet ">Tout voir <i class="ph-fill ph-arrow-square-out"></i></a>
+            </div>
+
+            <div class="flex flex-wrap gap-10 flex-tablet gap-tabletxl">
+
+                <a href="#" class="relative w-64 bg-white shadow-xl rounded-xl py-5 px-8 hover:-translate-y-4 transition-transform">
+                    <figure class="w-40 dish"><img class="relative object-cover" src="./assets/dish/plat-1.png" alt="Salade au Saumon"><span class="price  font-bold bg-yellow-300">15€</span></figure>
+        
+                    <div class="flex flex-col gap-3 text-center">
+                        <h5 class="font-bold text-lg mt-24">Salade au Saumon</h5>
+        
+                        <div class="flex justify-between items-center text-md mb-5">
+                            <p class="font-bold"><i class="ph-fill ph-star text-yellow-400 mr-1"></i> 4,4</p>
+                            <p class="font-medium text-gray-400 ">( 15K Avis )</p>
+                        </div>
+        
+                        <button class="font-bold text-green-600 bg-green-100 py-2 px-6 rounded-full hover:bg-green-500 hover:text-white transition-colors">
+                            Commander
+                        </button>
+                    </div>
+                </a>
+                
+                <a href="#" class="relative w-64 bg-white shadow-xl rounded-xl py-5 px-8 hover:-translate-y-4 transition-transform">
+                    <figure class="w-40 dish"><img class="relative object-cover" src="./assets/dish/plat-2.png" alt="Vol au vent"><span class="price  font-bold bg-yellow-300">18€</span></figure>
+        
+                    <div class="flex flex-col gap-3 text-center">
+                        <h5 class="font-bold text-lg mt-24">Vol au vent</h5>
+        
+                        <div class="flex justify-between items-center text-md mb-5">
+                            <p class="font-bold"><i class="ph-fill ph-star text-yellow-400 mr-1"></i> 4,8</p>
+                            <p class="font-medium text-gray-400 ">( 12,7K Avis )</p>
+                        </div>
+        
+                        <button class="font-bold text-green-600 bg-green-100 py-2 px-6 rounded-full hover:bg-green-500 hover:text-white transition-colors">
+                            Commander
+                        </button>
+                    </div>
+                </a>
+
+                <a href="#" class="relative w-64 bg-white shadow-xl rounded-xl py-5 px-8 hover:-translate-y-4 transition-transform">
+                    <figure class="w-40 dish"><img class="relative object-cover" src="./assets/dish/plat-1.png" alt="Salade au Saumon"><span class="price  font-bold bg-yellow-300">15€</span></figure>
+        
+                    <div class="flex flex-col gap-3 text-center">
+                        <h5 class="font-bold text-lg mt-24">Salade au Saumon</h5>
+        
+                        <div class="flex justify-between items-center text-md mb-5">
+                            <p class="font-bold"><i class="ph-fill ph-star text-yellow-400 mr-1"></i> 4,1</p>
+                            <p class="font-medium text-gray-400 ">( 7,3K Avis )</p>
+                        </div>
+        
+                        <button class="font-bold text-green-600 bg-green-100 py-2 px-6 rounded-full hover:bg-green-500 hover:text-white transition-colors">
+                            Commander
+                        </button>
+                    </div>
+                </a>
+
+                <a href="#" class="relative w-64 bg-white shadow-xl rounded-xl py-5 px-8 hover:-translate-y-4 transition-transform">
+                    <figure class="w-40 dish"><img class="relative object-cover" src="./assets/dish/plat-2.png" alt=""><span class="price  font-bold bg-yellow-300">18€</span></figure>
+        
+                    <div class="flex flex-col gap-3 text-center">
+                        <h5 class="font-bold text-lg mt-24">Vol au vent</h5>
+        
+                        <div class="flex justify-between items-center text-md mb-5">
+                            <p class="font-bold"><i class="ph-fill ph-star text-yellow-400 mr-1"></i> 4,7</p>
+                            <p class="font-medium text-gray-400 ">( 8K Avis )</p>
+                        </div>
+        
+                        <button class="font-bold text-green-600 bg-green-100 py-2 px-6 rounded-full hover:bg-green-500 hover:text-white transition-colors">
+                            Commander
+                        </button>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+        
+        <!-- Section avec Formulaire de contact  -->
+        <section id="contact" class="py-40 px-28 mobile-lr-padding">
+            <h4 class="font-medium text-2xl text-green-600 mb-4 tac-tablet">Restons connectés</h4>
+            <h3 class="font-medium text-5xl mb-10 tac-tablet ft-size-tablet ft-size-mobile">Contactez-nous</h3>
+
+            <form class="flex gap-10  flex-tablet" action="get">
+                
+                <iframe class="w-1/2 hide-tablet" src="https://www.openstreetmap.org/export/embed.html?bbox=4.10902887582779%2C44.11673646662032%2C4.111711084842683%2C44.11813059869646&amp;layer=mapnik"></iframe>
+
+                <fieldset class="w-1/2 mobile-full">
+                    <ul class="flex flex-col gap-5">
+
+                        <li class="flex justify-between gap-8 mobile-flex-col">
+                            <div class=" w-full flex flex-col gap-1">
+                                <label for="name">Nom * :</label>
+                                <input class="active:border-green-600 focus:border-green-400" type="text" id="name" placeholder="Nom">
+                            </div>
+                            <div class="w-full flex flex-col gap-1">
+                                <label for="firstname">Prénom * :</label>
+                                <input class="active:border-green-600 focus:border-green-400" type="text" placeholder="Prénom" id="firstname">
+                            </div>
+                        </li>
+
+                        <li class="flex justify-between  gap-8 mobile-flex-col">
+                            <div class="w-full flex flex-col gap-1">
+                                <label for="tel">N° de téléphone portable * :</label>
+                                <input class="active:border-green-600 focus:border-green-400" type="tel" id="tel">
+                            </div>
+                            <div class="w-full flex flex-col gap-1">
+                                <label for="mail">Email * :</label>
+                                <input class="active:border-green-600 focus:border-green-400" type="email" id="mail">
+                            </div>
+                        </li>
+
+                        <li class="flex flex-col  gap-1">
+                            <label for="message">Message * :</label>
+                            <textarea  class="h-64 resize-none active:border-green-600 focus:border-green-400" name="message" id="message"></textarea>
+                        </li>
+
+                        <li>
+                            <button class="w-full font-bold text-white bg-green-600 py-2 px-6 rounded-full hover:bg-green-500 transition-colors">
+                                Envoyer
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+        <!-- Footer du Site -->
+        <footer class=" text-white  bg-green-800 pt-20 pb-8 px-28 mobile-lr-padding">
+
+            <div class="flex flex-wrap justify-between mb-16 mobile-flex-col mobile-flex-col-center mobile-tac mobile-flex-gap">
+                <div class="w-2/5 hide">
+                    <figure class="w-32"><a href="#hero"><img class="w-full" src="./assets/logo-removebg-preview.png" alt="eco-eats-logo"></a></figure>
+                    <p>Soyez acteur d'un mode de vie sain avec Eco Eats. Livraison rapide de repas bio, délicieux et bons pour la planète, directement à votre porte.</p>
+                </div>
+        
+                <div>
+                    <h6 class="font-bold text-xl mb-5">Liens Rapide</h6>
+                    <ul class="flex flex-col gap-3 font-medium">
+                        <li><a class="decoration-white hover:underline" href="#">À propos</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Devenir Partenaire</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Notre Équipe</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Blog</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <div>
+                    <h6 class="font-bold text-xl mb-5">Liens Utiles</h6>
+                    <ul class="flex flex-col gap-3 font-medium">
+                        <li><a class="decoration-white hover:underline" href="#">Politique de Confidentialité</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Mentions légales</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Avertissement</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">Support</a></li>
+                        <li><a class="decoration-white hover:underline" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+        
+                <div class="flex flex-col gap-5 w-1/5 mobile-full">
+                    <h6 class="font-bold text-xl">Télécharger l'Application</h6>
+        
+                    <p>
+                        Emportez Eco Eats partout. Installez notre application
+                    </p>
+        
+                    <p class="flex gap-5 text-4xl mobile-flex-center ">
+                        <a href="#"><i class="hover:text-green-600 transition-colors ph-fill ph-apple-logo"></i> </a>
+                        <a href="#"><i class="hover:text-green-600 transition-colors ph-fill ph-google-play-logo"></i></a>
+                    </p>
+        
+                    <div class="flex items-center gap-5 mobile-flex-col">
+                        <i class="text-3xl ph-fill ph-clock"></i>
+                        <p>Disponible 24h/24h pour répondre à vos questions</p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class=" h-[2px] bg-white mb-5">
+
+            <div class="flex justify-between">
+                <p class="font-medium">Eco Eats™ Tous Droits Réservées</p>
+
+                <div class="flex gap-3 text-3xl">
+                    <a href="#"><i class="hover:text-green-600 transition-colors  ph-fill ph-facebook-logo"></i></a>
+                    <a href="#"><i class="hover:text-green-600 transition-colors ph-fill ph-instagram-logo"></i></a>
+                    <a href="#"><i class="hover:text-green-600 transition-colors  ph-fill ph-youtube-logo"></i></a>
+                </div>
+            </div>
+
+        </footer>
+
+    </main>
+
+</body>
+</html>

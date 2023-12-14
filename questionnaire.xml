@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+    <identite>
+        <Nom>IKHLEF</Nom>
+        <Prenom>Khaled</Prenom>
+    </identite>
+    <titre>QUESTIONNAIRE LANGUAGES FRONT</titre>
+    <questions>
+
+        <question id="1">
+            <enonce>1) Quelle est l’utilité de l’élément?</enonce>
+            <reponse>
+                L'utilité d'un élément HTML est de permettre de bien structuré une page HTML de manière à compartimenter les différentes parties d'une page mais aussi de faire comprendre à son navigateur comment cette page fonctionne.
+            </reponse>
+        </question>
+
+        <question id="2">
+            <enonce>2) Définir la sémantique du web.</enonce>
+            <reponse>
+                La sémantique du web défini tous les éléments d'une page HTML qui a chacun une utilité unique. Cela permet de compartimenter sa page web d'une manière logique afin que les moteurs de recherches analysent et la page afin de mieux la comprendre. On peut citer les principaux éléments sémantiques tels que les éléments : head, body, header, nav, section, aside, article, footer. Chacun de ses éléments nous aide et aide les moteurs de recherche à mieux référencer notre page sur le web.
+            </reponse>
+        </question>
+
+        <question id="3">
+            <enonce>3) Citez des éléments du DOM se référant au contenu textuel d’une structure html.</enonce>
+            <reponse>
+                Concernant les éléments du DOM qui se référent au contenu textuel d'une structure HTML on peut notamment cité : les h1,h2...,h6 (heading) qui représente des titres de plusieurs niveaux, l'élément p qui représente un paragraphe.
+            </reponse>
+        </question>
+
+        <question id="4">
+            <enonce>4) Qu’est-ce qu’un Framework css ?</enonce>
+            <reponse>
+                Un framework css représente un système permettant de simplifier et d'accélérer la stylisation d'une page web en utilisant des classes de style sur les éléments HTML supprimant ainsi l'usage d'un fichier css externe. Les framework css le plus souvent fournissent un style standardisé afin d'être le plus efficace possible.
+            </reponse>
+        </question>
+
+        <question id="5">
+            <enonce>5) Quels sont les points communs et les différences entre le HTML et le XML ?</enonce>
+            <reponse>
+                Les points communs entre un fichier HTML et XML sont l'utilisation de balise et d'attributs permettant de structurer un document.
+
+                La différence entre les deux se trouve dans le fait qu'un document XML n'est destiné qu'à un usage de registre permettant de stockés des données. Alors qu'un document HTML lui est destiné à la structure d'une page web.
+            </reponse>
+        </question>
+
+        <question id="6">
+            <enonce>6) Que contient les éléments head et body ?Quelle est leur relation avec l’objet html ?</enonce>
+            <reponse>
+                L'élément head contient toutes les propriétés relatives à la page web qui ne sont pas visibles aux yeux des utilisateurs mais indispensable aux navigateurs et moteurs de recherches. Cela comprend la gestion de la taille de l'appareil sur laquelle est consultée la page web, l'échelle initiale de la page, le titre ainsi que la description de la page mais aussi des liens vers une feuille de style ou autre.
+
+                L'élément body quant à lui va contenir tous les éléments de la page c'est ce qui se sera affiché sur la page web.
+            </reponse>
+        </question>
+
+        <question id="7">
+            <enonce>7) Citez 3 protocoles applicatifs du TCP/IP.</enonce>
+            <reponse>
+                On peut citer comme protocole : le HTTP (Hypertext transfer protocol), le SMTP (Simple Mail Transfer Protocol) ou encore le FTP (File Transfer Protocol).
+            </reponse>
+        </question>
+
+        <question id="8">
+            <enonce>8) Décrire en quelques lignes le modèle client-serveur.</enonce>
+            <reponse>
+                Le modèle client serveur permet l'échange d'informations entre un client qui représente la machine de l'utilisateur avec un serveur qui est une machine qui est destiné à envoyer, recevoir et gérer des informations. Cela se définit par l'envoi et la réception de requêtes 
+                des deux parties en utilisant divers protocoles.
+            </reponse>
+        </question>
+
+        <question id="9">
+            <enonce>9) Comment mettre un commentaire en HTML 5 et en CSS ?</enonce>
+            <reponse>
+                Pour mettre un commentaire en HTML on utilise : <!--  -->
+                Pour mettre un commentaire en CSS on utilise : /*  */
+            </reponse>
+        </question>
+
+        <question id="10">
+            <enonce>10) Quel est le rôle du W3C ?</enonce>
+            <reponse>
+                Le rôle du W3C est de gérer et définir les normes standardisées 
+                du web. Il s'assurent des bonnes pratiques et maintienne les langages HTML et CSS.
+            </reponse>
+        </question>
+
+    </questions>
+</questionnaire>
